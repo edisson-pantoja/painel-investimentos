@@ -1,0 +1,20 @@
+# node_modules e dependências
+node_modules/
+dist/
+
+# arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+
+# sistema operacional
+.DS_Store
+Thumbs.db
+
+# ambiente local
+.env
+.env.*
