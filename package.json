@@ -8,11 +8,14 @@
     "recharts": "^2.1.9",
     "tailwindcss": "^3.3.2"
   },
-  "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "vite": "^4.3.9"
-  },
+ "devDependencies": {
+  "@vitejs/plugin-react": "^4.0.0",  // ou outra versão
+  "vite": "^4.3.9",
+  "autoprefixer": "^10.4.14",
+  "postcss": "^8.4.21",
+  "tailwindcss": "^3.3.2"
+}
+,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
