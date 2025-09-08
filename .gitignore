@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # node_modules e dependências
 node_modules/
 dist/
@@ -18,3 +19,29 @@ Thumbs.db
 # ambiente local
 .env
 .env.*
+=======
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> cc67ac3 (Primeiro commit do projeto Painel-investimento)
