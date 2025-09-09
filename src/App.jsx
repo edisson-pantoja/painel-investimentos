@@ -1,10 +1,5 @@
-<<<<<<< HEAD
+import React from 'react';
 import { PainelInvestimentos } from './components/PainelInvestimentos';
-
-export function App() {
-  return <PainelInvestimentos />;
-=======
-import React from "react";
 
 function Card({ title, value, change }) {
   return (
@@ -21,10 +16,9 @@ function Card({ title, value, change }) {
   );
 }
 
-export default function App() {
+export function App() {
   return (
     <div className="min-h-screen bg-gray-900 p-6 text-white">
-      {/* Navbar */}
       <header className="flex justify-between items-center mb-8">
         <h1 className="text-3xl font-bold">Painel de Investimentos</h1>
         <nav>
@@ -34,7 +28,6 @@ export default function App() {
         </nav>
       </header>
 
-      {/* Cards */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card title="Carteira Total" value="R$ 5.000,00" change="+5%" />
         <Card title="Aporte Mensal" value="R$ 200,00" change="+2%" />
@@ -42,5 +35,4 @@ export default function App() {
       </section>
     </div>
   );
->>>>>>> cc67ac3 (Primeiro commit do projeto Painel-investimento)
 }
