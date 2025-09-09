@@ -16,7 +16,7 @@ function Card({ title, value, change }) {
   );
 }
 
-export function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-gray-900 p-6 text-white">
       <header className="flex justify-between items-center mb-8">
